@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                     EventBus.getDefault().post(WriteMessageResponseEvent(response, 0))
                 }
             }
-        
+
     }
 
     override fun onStart() {
